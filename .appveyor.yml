@@ -1,10 +1,10 @@
+image: Ubuntu2204
 environment:
   nodejs_version: "18"
 
 branches:
   only:
-    - master  # ветка git
-    - main
+    - main  # ветка git
 
 cache: node_modules  # кеширование
 
